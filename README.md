@@ -1,24 +1,5 @@
-# README
+# SOM Baseball
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## What is it?
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Strat-o-matic Baseball is a classic board game allowing you to play simulated baseball games with using real-life players and statistics. This app is intended to build a league, keep track of games, depth charts, lineups, records and stats. It is meant as an online stat-tracker for offline strat-o-matic baseball games.
