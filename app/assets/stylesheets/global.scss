@@ -1,0 +1,36 @@
+.navbar {
+  background-color: $green-dark;
+  color: $green-light;
+  .navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #efefef;
+    &:hover,
+    &:active {
+      color: $green-light;
+      text-decoration: none;
+    }
+  }
+  .navbar-link {
+    color: $green-light;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+  }
+}
+.navbar-nav {
+  .nav-item {
+    .nav-link {
+      color: $green-light;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 0.8em;
+      letter-spacing: 1px;
+      &:hover,
+      &:active {
+        color: #efefef;
+      }
+    }
+  }
+}

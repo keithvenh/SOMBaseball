@@ -1,0 +1,9 @@
+<%= form_for @league do |f| %>
+
+  <%= f.label :name, "League Name", class: "form-label" %>
+  <%= f.text_field :name, class: 'form-control' %>
+
+  <%= f.label :year, "League Year", class: 'form-label' %>
+  <%= f.number_field :year, class: 'form-control', value: 2018 %>
+
+<% end %>

@@ -1,1 +1,13 @@
+$blue-dark: #003333;
+$blue-med: #226666;
+$blue-light: #669999;
+$red-med: #aa3939;
+$red-dark: #550000;
+$red-light: #ffaaaa;
+$green-med: #2d882d;
+$green-dark: #004400;
+$green-light: #88cc88;
+
 @import 'bootstrap';
+@import 'global';
+@import 'leagues';
