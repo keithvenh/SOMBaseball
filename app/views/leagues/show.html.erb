@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-12 col-md-4 offset-md-4">
+    <h1 class="text-center"><%= @league.name %></h1>
+    <p class="text-center"><%= @league.year %></p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 col-md-4 offset-md-4">
+    <p class="text-center edit-link">
+      <%= link_to "edit", edit_league_path(@league), class: 'btn btn-outline-info btn-sm mt-3' %><br>
+      <%= link_to 'delete', @league, method: :delete, data: {confirm: "Delete this league?" }, class: 'btn btn-outline-danger btn-sm mt-3' %>
+    </p>
+  </div>
+</div>

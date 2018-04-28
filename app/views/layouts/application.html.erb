@@ -10,7 +10,7 @@
 
   <body>
     <nav class="navbar navbar-expand-md">
-      <%= link_to "HOF Baseball 2018", "#", :class => "navbar-brand" %>
+      <%= link_to "SOM Baseball App", root_url, :class => "navbar-brand" %>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,6 +26,12 @@
         </ul>
       </div>
     </nav>
-    <%= yield %>
+    <div class="container-fluid">
+      <% flash.each do |msg_type, msg| %>
+        <%= content_tag(:div, msg, class: "alert alert-#{msg_type}") %>
+      <% end %>
+
+      <%= yield %>
+    </div>
   </body>
 </html>
